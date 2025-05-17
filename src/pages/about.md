@@ -3,34 +3,36 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
-
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
-<div>
-  <img src="/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+SKKU Table은 축제 주점 예약 관리 시스템입니다.
 
 ## Tech Stack
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+## Frontend
+
+- React (Next.js)
+- TailwindCSS
+- TypeScript
+
+## Backend
+
+- Spring (Spring Boot)
+- Java
+- MySQL
+- Redis
+
+## Infra
+
+- Oracle Cloud Infrastructure
+- GitHub Actions
 
 ## Features
 
-Here are certain features of this site.
+저희 서비스의 특징은 다음과 같습니다.
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+- 축제 주점 예약 관리 시스템
+- 관리자 페이지
+- 주점 예약 관리
+- 축제 및 주점 정보
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+만약 더 자세한 정보가 필요하다면 [repo](https://github.com/skku-table/skku-table)를 확인해주세요.
+또는 [email](mailto:skkutable@gmail.com)로 문의해주세요.
