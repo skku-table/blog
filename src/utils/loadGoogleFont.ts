@@ -13,7 +13,6 @@ async function loadGoogleFont(
       },
     })
   ).text();
-
   const resource = css.match(
     /src: url\((.+?)\) format\('(opentype|truetype)'\)/
   );
@@ -43,7 +42,7 @@ async function loadGoogleFonts(
     },
     {
       name: "IBM Plex Sans KR",
-      font: "IBM+Plex+Sans+KR:wght@700",
+      font: "IBM+Plex+Sans+KR",
       weight: 700,
       style: "bold",
     },
