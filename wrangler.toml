@@ -1,0 +1,6 @@
+name = "skku-table-blog"
+pages_build_output_dir = "./dist"
+
+[vars]
+NODE_VERSION = "24.1.0"
+PNPM_VERSION = "10.10.0"
